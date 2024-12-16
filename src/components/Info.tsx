@@ -40,7 +40,7 @@ const Info: React.FC = () => {
             maxHeight: { md: 'auto' }, // Para que en pantallas grandes no supere la altura de la imagen
           }}
         >
-          <Typography variant="h3" sx={{ fontWeight: 'bold', marginBottom: '1rem' }}>
+          <Typography variant="h5" sx={{ fontWeight: 'bold', marginBottom: '1rem' }}>
             La solución de control de acceso basada en la nube líder del sector
           </Typography>
 

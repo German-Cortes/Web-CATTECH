@@ -1,38 +1,27 @@
 import React from 'react';
-import { Grid, Box, Typography, Container } from '@mui/material';
+import { Grid, Box, Container, useMediaQuery, useTheme } from '@mui/material';
 
 const Imagen: React.FC = () => {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm')); // Detecta tamaños menores al breakpoint 'sm' (600px)
+
   return (
-    <Box id='Imagen'
-      sx={{ 
-        width: '100%', 
-        height: '100vh', 
-        backgroundImage: `url('/src/images/commercial_background.jpg')`, // Reemplaza con tu imagen real
+    <Box
+      id="Imagen"
+      sx={{
+        width: '100%',
+        height: '100vh',
+        backgroundImage: `url(${isMobile ? '/src/images/Hero_movil.jpg' : '/src/images/Hero.jpg'})`, // Cambia la imagen según el tamaño
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         display: 'flex',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.1)', // Sombra sutil
       }}
     >
       <Container maxWidth="lg">
         <Grid container alignItems="center" spacing={2}>
-          
-          {/* Contenedor de texto a la izquierda */}
-          <Grid item xs={12} md={6}>
-            <Box sx={{ padding: '2rem', backgroundColor: 'rgba(0, 0, 0, 0.6)', borderRadius: '10px' }}>
-              <Typography variant="h6" color="white" sx={{ fontWeight: 'bold' }}>
-                Soluciones de control de accesos para Empresas, Industria e Infraestructuras
-              </Typography>
-              <Typography variant="h3" color="white" sx={{ fontWeight: 'bold', marginTop: '1rem' }}>
-              PLERIFY
-              </Typography>
-              <Typography variant="body1" color="white" sx={{ marginTop: '1rem' }}>
-              Software de verificación de patentes vehiculares, obteniendo datos relevantes del vehículo y su situación legal. Su integración se puede realizar mediante nuestras Cámaras LPR Survision, logrando el registro y acreditación de vehículos que transitan por los accesos, además de la apertura automática de barreras para vehículos autorizados.
-              </Typography>
-            </Box>
-          </Grid>
-
           {/* Espacio vacío a la derecha */}
           <Grid item xs={12} md={6}>
             {/* La parte derecha está vacía como se observa en la imagen */}
