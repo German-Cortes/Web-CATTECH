@@ -5,7 +5,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const Info: React.FC = () => {
   return (
-    <Container sx={{marginY: '4rem' }}>
+    <Container id='Info' sx={{marginY: '4rem' }}>
       {/* Contenedor principal flex */}
       <Box
         sx={{
@@ -16,9 +16,9 @@ const Info: React.FC = () => {
         }}
       >
         {/* Imagen */}
-        <Box  
+        <Box
           component="img"
-          src="/src/images/agendando2.png"
+          src="./src/images/agendando2.png"
           alt="Control de acceso"
           sx={{
             width: { xs: '100%', md: '50%' },

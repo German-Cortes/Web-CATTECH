@@ -11,7 +11,7 @@ const Imagen: React.FC = () => {
       sx={{
         width: '100%',
         height: '100vh',
-        backgroundImage: `url(${isMobile ? '/src/images/Hero_movil.jpg' : '/src/images/Hero.jpg'})`, // Cambia la imagen según el tamaño
+        backgroundImage: `url(${isMobile ? './src/images/Hero_movil.jpg' : './src/images/Hero.jpg'})`, // Cambia la imagen según el tamaño
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         display: 'flex',
