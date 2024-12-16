@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
           display: { xs: "none", sm: "block" }, // Ocultar en pantallas pequeñas
           width: "100%",
           height: "100vh",
-          backgroundImage: "url('/images/Apk.jpg')",
+          backgroundImage: "url('./images/Apk.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
           display: { xs: "block", sm: "none" }, // Ocultar en pantallas grandes
           width: "100%",
           height: "100vh",
-          backgroundImage: "url('src/images/Apk_movil.jpg')",
+          backgroundImage: "url('./images/Apk_movil.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
