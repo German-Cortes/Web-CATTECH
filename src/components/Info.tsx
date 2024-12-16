@@ -18,7 +18,7 @@ const Info: React.FC = () => {
         {/* Imagen */}
         <Box
           component="img"
-          src="./src/images/agendando2.png"
+          src="./images/agendando2.png"
           alt="Control de acceso"
           sx={{
             width: { xs: '100%', md: '50%' },
