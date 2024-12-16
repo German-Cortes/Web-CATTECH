@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
           display: { xs: "none", sm: "block" }, // Ocultar en pantallas pequeñas
           width: "100%",
           height: "100vh",
-          backgroundImage: "url('src/images/Hero.jpg')",
+          backgroundImage: "url('src/images/Apk.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",

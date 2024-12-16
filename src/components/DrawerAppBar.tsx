@@ -11,7 +11,6 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
 interface Props {
@@ -20,10 +19,10 @@ interface Props {
 
 const drawerWidth = 240;
 const navItems = [
-  { label: 'Inicio', id: 'Hero' },
+  { label: 'Inicio', id: 'Imagen' },
   { label: 'Descripcion', id: 'Info' },
   { label: 'Vista Previa ', id: 'Imagen' },
-  {label: 'Descarga', id: 'Funciones'},
+  { label: 'Descarga', id: 'Descarga' },
 ];
 
 export default function DrawerAppBar(props: Props) {
@@ -43,9 +42,7 @@ export default function DrawerAppBar(props: Props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
-      </Typography>
+      <Box component="img" src="./src/images/logo.png" alt="Logo" sx={{ my: 2, height: 50 }} />
       <Divider />
       <List>
         {navItems.map((item) => (
@@ -75,13 +72,12 @@ export default function DrawerAppBar(props: Props) {
           >
             <MenuIcon />
           </IconButton>
-          <Typography
-            variant="h6"
-            component="div"
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
-          >
-            CATTECH
-          </Typography>
+          <Box
+            component="img"
+            src="./src/images/logo.png"
+            alt="Logo"
+            sx={{ height: 50, display: { xs: 'none', sm: 'block' } }}
+          />
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
               <Button key={item.label} sx={{ color: '#fff' }} onClick={() => handleScroll(item.id)}>
@@ -98,7 +94,7 @@ export default function DrawerAppBar(props: Props) {
           open={mobileOpen}
           onClose={handleDrawerToggle}
           ModalProps={{
-            keepMounted: true, // Better open performance on mobile.
+            keepMounted: true, // Mejor rendimiento en móviles.
           }}
           sx={{
             display: { xs: 'block', sm: 'none' },
