@@ -20,10 +20,10 @@ interface Props {
 
 const drawerWidth = 240;
 const navItems = [
-  { label: 'Home', id: 'Hero' },
-  { label: 'About', id: 'Info' },
-  { label: 'Contact', id: 'Imagen' },
-  {label: 'Funciones', id: 'Funciones'},
+  { label: 'Inicio', id: 'Hero' },
+  { label: 'Descripcion', id: 'Info' },
+  { label: 'Vista Previa ', id: 'Imagen' },
+  {label: 'Descarga', id: 'Funciones'},
 ];
 
 export default function DrawerAppBar(props: Props) {
