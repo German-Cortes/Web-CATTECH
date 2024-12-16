@@ -13,7 +13,7 @@ const Beneficio = () => {
         }}
       >
         <Typography variant="h5" sx={{ fontWeight: 'bold', marginBottom: '1rem' }}>
-          Beneficios
+          
         </Typography>
         <Box sx={{ mt: 2 }}>
           <Typography variant="h6" sx={{ mb: 2 }}>

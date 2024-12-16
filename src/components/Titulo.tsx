@@ -20,7 +20,7 @@ return (
         component="h2" 
         sx={{ textAlign: 'center', mb: 4 }}
       >
-        Caracteristicas
+        Características
       </Typography>
 
     </Box>
