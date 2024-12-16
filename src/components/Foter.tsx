@@ -14,13 +14,13 @@ const Footer: React.FC = () => {
       }}
     >
       <Typography variant="body2">
-        © {new Date().getFullYear()} Nombre de la Empresa. Todos los derechos reservados.
+        © {new Date().getFullYear()} CATTECH. Todos los derechos reservados.
       </Typography>
       <Typography variant="body2">
-        Dirección: Calle Falsa 123, Ciudad, País
+        Dirección: Calle Falsa 123, Viña del Mar, País
       </Typography>
       <Typography variant="body2">
-        Contacto: contacto@empresa.com | Tel: +123 456 7890
+        Contacto: n.muñoz@cattech.com | Tel: +56989215674
       </Typography>
     </Box>
   );

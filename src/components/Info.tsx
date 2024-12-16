@@ -18,7 +18,7 @@ const Info: React.FC = () => {
         {/* Imagen */}
         <Box
           component="img"
-          src="/src/images/imagenInfo.jpg"
+          src="/src/images/agendando2.png"
           alt="Control de acceso"
           sx={{
             width: { xs: '100%', md: '50%' },
@@ -41,52 +41,50 @@ const Info: React.FC = () => {
           }}
         >
           <Typography variant="h5" sx={{ fontWeight: 'bold', marginBottom: '1rem' }}>
-            La solución de control de acceso basada en la nube líder del sector
+            Características principales de la aplicación
           </Typography>
 
           {/* Acordeones */}
           <Box sx={{ marginTop: '1rem' }}>
             <Accordion>
               <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                <Typography>Manténgase al día desde cualquier lugar y en tiempo real</Typography>
+                <Typography>Agendar visitas fácilmente</Typography>
               </AccordionSummary>
               <AccordionDetails>
                 <Typography>
-                  The Salto KS cloud technology delivers security with more simplicity, greater value, faster response time, and better user experience. Monitor every access point remotely from anywhere, at any time, and on any device – for even greater control and flexibility.
+                Organiza tus citas de diagnóstico o reparación con rapidez. Programa fechas y horarios específicos para atender a tus clientes, evitando conflictos en tu agenda.
                 </Typography>
               </AccordionDetails>
             </Accordion>
 
             <Accordion>
               <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                <Typography>Analice datos valiosos y obtenga información sobre la actividad</Typography>
+                <Typography>Historial de servicios detallado</Typography>
               </AccordionSummary>
               <AccordionDetails>
                 <Typography>
-                  La capacidad de analizar datos valiosos en tiempo real le permite optimizar la seguridad y tomar decisiones informadas para mejorar el acceso y la gestión de los recursos.
+                Accede a un registro completo de los servicios realizados. Consulta la información por cliente o dispositivo, incluyendo fechas, motivos y detalles del servicio.
                 </Typography>
               </AccordionDetails>
             </Accordion>
 
             <Accordion>
               <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                <Typography>Gestione el acceso de forma fácil y segura</Typography>
+                <Typography>Estado actualizado de servicios</Typography>
               </AccordionSummary>
               <AccordionDetails>
                 <Typography>
-                  La tecnología en la nube garantiza que pueda gestionar el acceso de manera simple, segura y desde cualquier lugar con control total.
-                </Typography>
+                Mantente al tanto del progreso de cada servicio con estados claros: trabajando, listo o con problemas. Informa a tus clientes sobre los avances de forma precisa y en tiempo real.                </Typography>
               </AccordionDetails>
             </Accordion>
 
             <Accordion>
               <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                <Typography>Agilice sus operaciones con integraciones</Typography>
+                <Typography>Gestión desde cualquier lugar</Typography>
               </AccordionSummary>
               <AccordionDetails>
                 <Typography>
-                  Las integraciones con otros sistemas permiten una gestión más eficiente de los accesos, mejorando la experiencia del usuario y optimizando las operaciones diarias.
-                </Typography>
+                La aplicación está optimizada para dispositivos móviles, permitiéndote administrar tus servicios y clientes desde cualquier lugar con total comodidad.                </Typography>
               </AccordionDetails>
             </Accordion>
           </Box>
