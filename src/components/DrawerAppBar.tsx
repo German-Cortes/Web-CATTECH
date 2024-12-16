@@ -21,7 +21,7 @@ const drawerWidth = 240;
 const navItems = [
   { label: 'Inicio', id: 'Imagen' },
   { label: 'Caracteristicas', id: 'Info' },
-  { label: 'Vista Previa ', id: 'Imagen' },
+  { label: 'Beneficios ', id: 'Beneficios' },
   { label: 'Descarga', id: 'Descarga' },
 ];
 

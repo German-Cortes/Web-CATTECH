@@ -3,7 +3,7 @@ import { Box, Typography, Container, Paper } from '@mui/material';
 
 const Beneficio = () => {
   return (
-    <Container maxWidth="md" sx={{ my: 4 }}>
+    <Container  maxWidth="md" sx={{ my: 4 }}>
       <Paper
         elevation={3}
         sx={{

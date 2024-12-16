@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
           display: { xs: "block", sm: "none" }, // Ocultar en pantallas grandes
           width: "100%",
           height: "100vh",
-          backgroundImage: "url('src/images/Hero_movil.jpg')",
+          backgroundImage: "url('src/images/Apk_movil.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
