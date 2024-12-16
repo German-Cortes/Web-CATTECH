@@ -20,7 +20,7 @@ interface Props {
 const drawerWidth = 240;
 const navItems = [
   { label: 'Inicio', id: 'Imagen' },
-  { label: 'Descripcion', id: 'Info' },
+  { label: 'Caracteristicas', id: 'Info' },
   { label: 'Vista Previa ', id: 'Imagen' },
   { label: 'Descarga', id: 'Descarga' },
 ];

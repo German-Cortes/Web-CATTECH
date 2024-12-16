@@ -7,6 +7,7 @@ import Imagen from './components/Imagen';
 import Funciones from './components/Funciones';
 import { Divider } from '@mui/material';
 import Footer from './components/Foter';
+import Titulo from './components/Titulo';
 
 
 
@@ -16,7 +17,8 @@ export default function App() {
       <Box >
         <DrawerAppBar/>
         <Imagen/>
-        <Box sx={{marginTop: 16, marginBottom: 16}}>
+        <Box  sx={{marginTop: 16, marginBottom: 16}}>
+          <Titulo/>
           <Info/>
         </Box >
         <Box sx={{marginTop: 16, marginBottom: 16}}>
