@@ -7,6 +7,7 @@ import Imagen from './components/Imagen';
 import Funciones from './components/Funciones';
 import { Divider } from '@mui/material';
 import Footer from './components/Foter';
+import Beneficios from './components/Beneficios';
 
 
 
@@ -20,8 +21,10 @@ export default function App() {
           <Info/>
         </Box >
         <Box sx={{marginTop: 16, marginBottom: 16}}>
+        <Beneficios/>
         <Hero/>
         </Box >
+        
         
         <Footer/>
       </Box>
